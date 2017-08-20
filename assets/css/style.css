@@ -1,0 +1,76 @@
+body {
+	margin: 20px;
+}
+
+
+.jumbotron {
+	background-color: navy;
+	border-radius: 160px !important;
+	text-align: center;
+
+}
+
+.jumbotron h1 {
+	color:white;
+	font-size: 48px;
+	font-weight: bolder;	
+}
+
+label {
+	margin-top: 10px;
+}
+
+input {
+	background-color: yellow;
+}
+
+button {
+	background-color: navy;
+	margin-top:40px;
+	margin-left:5px;
+	width:200px;
+	}
+
+.panel-default {
+
+	border-radius:10px;
+
+}
+
+.panel-default > .panel-heading  {
+	background-color: navy;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	color: white;
+	font-size: 24px;
+	height: 10%;
+}
+
+.panel-default > .panel-body  {
+	background-color: lightgray;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	min-height: 40px;
+	
+}
+
+article {
+	border: 2px solid navy;
+	border-radius: 10px;
+	background-color: lightblue;
+	padding: 20px;
+	margin: 20px;
+}
+
+#articles h3 {
+	color: navy;
+}
+
+#articles a {
+	color: navy;
+}
+
+.disable {
+	pointer-events: none;
+	opacity:0.25;
+}
