@@ -20,8 +20,8 @@ label {
 	margin-top: 10px;
 }
 
-input {
-	background-color: yellow;
+.form-control{
+	background-color: #F7F469;
 }
 
 button {
@@ -30,9 +30,13 @@ button {
 	margin-left:5px;
 	width:200px;
 	}
+.panel {
+	border: 2px solid gray;
+	border-radius:10px;
+}	
 
 .panel-default {
-
+	border: 2px solid gray;
 	border-radius:10px;
 
 }
@@ -64,10 +68,22 @@ article {
 
 #articles h3 {
 	color: navy;
+	margin-bottom: 20px;
 }
 
 #articles a {
 	color: navy;
+}
+
+span {
+	background-color: navy;
+	border: 2px solid navy;
+	border-radius:10px;
+	color:white;
+	font-family: block;
+	font-weight:bolder;
+	margin:10px;
+	padding:7px 10px 7px 10px;
 }
 
 .disable {
